@@ -37,6 +37,8 @@ apm install language-glsl
 
 # Resources
 
+- http://stack.gl
+- http://glslb.in
 - http://mattdesl.svbtle.com/glslify
 - http://mattdesl.svbtle.com/rapid-prototyping
 
