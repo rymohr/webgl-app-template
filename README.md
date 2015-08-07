@@ -17,6 +17,10 @@ You should now see a big ugly baboon in your browser if everything installed
 correctly. If you make any changes to the source the page will
 automatically refresh.
 
+The interesting stuff is in
+- https://github.com/rymohr/webgl-app-template/blob/master/src/render.js
+- https://github.com/rymohr/webgl-app-template/tree/master/src/shaders
+
 If you're using Atom you can use the [language-glsl][1] package
 for GLSL syntax highlighting.
 
