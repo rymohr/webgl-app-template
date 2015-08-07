@@ -32,6 +32,7 @@ apm install language-glsl
 
 - [ ] Look into other stackgl packages http://stack.gl/packages/
 - [ ] Look into other glsl modules http://stack.gl/packages/#stackgl/glsl-specular-beckmann
+- [ ] Look into glify https://www.npmjs.com/package/glify
 - [ ] Look into PEX http://vorg.github.io/pex/
 - [ ] Find a replacement to budo that lets us use gulp
 
