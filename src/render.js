@@ -5,9 +5,9 @@ import createShader from "gl-shader";
 
 import triangle from "a-big-triangle";
 import baboon from "baboon-image";
-//grab a test image, rotate it upright
 
 export default function(gl) {
+  // grab a test image, rotate it upright
   const texture = createTexture(gl, baboon.transpose(1, 0, 2));
 
   const shader = createShader(gl,
