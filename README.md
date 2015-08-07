@@ -35,6 +35,10 @@ apm install language-glsl
 - [ ] Look into PEX http://vorg.github.io/pex/
 - [ ] Find a replacement to budo that lets us use gulp
 
+# Notes
+
+Originally tried to use [glslify-optimize][2] but [it doesn't support][3] node 0.12.
+
 # Resources
 
 - http://stack.gl
@@ -44,3 +48,5 @@ apm install language-glsl
 
 
 [1]: https://atom.io/packages/language-glsl
+[2]: https://github.com/hughsk/glslify-optimize
+[3]: https://github.com/hughsk/glslify-optimize/issues/2

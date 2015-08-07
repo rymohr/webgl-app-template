@@ -8,7 +8,6 @@ gulp.task("build", function() {
     .transform(babelify)
     // .transform("glslify-live")
     .transform("glslify")
-    .transform("glslify-optimize")
     .bundle()
     .on("error", console.error)
     .pipe(source("index.js"))

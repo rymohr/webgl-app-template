@@ -13,7 +13,6 @@
     "glsl-luma": "^1.0.1",
     "glslify-import": "~1.0.0",
     "glslify-hex": "~2.0.1",
-    "glslify-optimize": "~2.0.1",
     "a-big-triangle": "^1.0.0",
     "baboon-image": "^1.0.0"
   },
@@ -28,7 +27,7 @@
   },
   "scripts": {
     "start": "npm run dev & npm run live",
-    "dev": "budo src/index.js:index.js --verbose --live -- -t babelify -t glslify -t glslify-optimize | garnish",
+    "dev": "budo src/index.js:index.js --verbose --live -- -t babelify -t glslify | garnish",
     "live": "glslify-live"
   }
 }
